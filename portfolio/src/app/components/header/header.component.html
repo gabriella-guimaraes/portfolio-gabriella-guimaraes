@@ -1,0 +1,16 @@
+<div>
+    <nav>
+        <div class="nav-logo">
+            <a href="/">
+                <h1>Gabriella</h1>
+            </a>
+        </div>
+        <span (click)="btnMobile()" [ngClass]="btnMenu ? 'active': ''"></span>
+        <ul class="nav-links" [ngClass]="btnMenu ? 'active' : ''">
+            <li class="link" id="link0"><a href="#">Home</a></li>
+            <li class="link" id="link1"><a href="#">Sobre</a></li>
+            <li class="link" id="link2"><a href="#">Resumo</a></li>
+            <li class="link" id="link3"><a href="#">Projetos</a></li>
+        </ul>
+    </nav>
+</div>
