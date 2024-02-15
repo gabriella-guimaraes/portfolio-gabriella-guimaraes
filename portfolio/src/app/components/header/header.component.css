@@ -6,11 +6,6 @@ body {
     background-color: var(--bg-primary);
 }
 
-/* div{
-    display: flex;
-    flex-direction: row;
-} */
-
 nav {
     /* max-width: 1200px; */
     margin: auto;
@@ -64,6 +59,7 @@ nav {
         height: 0;
         overflow-y: hidden;
         visibility: hidden;
+        transition: .6s;
     }
 
     .nav-links.active{
@@ -73,7 +69,7 @@ nav {
     }
 
     .nav-links.active a{
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 500;
     }
 
