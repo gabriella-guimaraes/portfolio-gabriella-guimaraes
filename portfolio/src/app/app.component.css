@@ -5,3 +5,17 @@ body{
     padding: 12px 24px;
     min-height: 100vh;
 }
+
+.first_section{
+    background: radial-gradient(
+        circle at right,
+        #e0706162 8%,
+        #a57cd88c 20%,
+        #7474ed81 27%,
+        #CBCBDE 50%,
+        #DDE4F5 72%
+    );
+    backdrop-filter: blur(80px);
+    --webkit-backdrop-filter: blur(80px);
+    
+}

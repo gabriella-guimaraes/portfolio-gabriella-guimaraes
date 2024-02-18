@@ -2,6 +2,9 @@
 :root {
     --bg-primary: #DDE4F5;
     --bg-secondary: #CBCBDE;
+    --bg-purple: #6228C2;
+    --bg-blue: #1918E2;
+    --bg-orange: #FF3214;
     --text-dark: #1B1B21;
     --text-dark-2: #51516D;
 }
