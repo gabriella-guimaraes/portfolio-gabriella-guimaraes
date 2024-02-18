@@ -35,3 +35,20 @@ footer {
     color: var(--text-dark-2);
     font-weight: 600;
 }
+
+@media (max-width: 768px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Intro-text{
+        max-width: 100%;
+    }
+
+    .Intro-text h1{
+        font-size: 48px;
+        text-align: center;
+    }
+}
