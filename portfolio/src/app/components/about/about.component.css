@@ -9,7 +9,7 @@
 
 img {
     max-width: 100%;
-    height: auto;
+    height: 80%;
 }
 
 .Intro-text{
@@ -24,10 +24,12 @@ img {
     font-weight: 800;
     margin-bottom: 5vh;
     margin-top: 10vh;
+    font-family: "Montserrat", sans-serif;
 }
 
 .Intro-text p {
     font-size: 16px;
+    font-family: "Inter", sans-serif;
 }
 
 footer {

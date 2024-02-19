@@ -22,6 +22,7 @@ nav {
     h1{
         font-weight: 600;
         color: var(--text-dark);
+        font-family: "Montserrat", sans-serif;
     }
 }
 

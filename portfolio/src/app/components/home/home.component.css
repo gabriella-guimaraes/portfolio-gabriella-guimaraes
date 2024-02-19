@@ -8,8 +8,9 @@
 .intro h1 {
     font-weight: 800;
     color: var(--text-dark);
-    font-size: 64px;
+    font-size: 72px;
     margin: 10rem 0 10px 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 .description p {

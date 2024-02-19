@@ -1,0 +1,14 @@
+.container-bar {
+    width: 250px;
+    height: 10px;
+    background-color: var(--bg-secondary);
+    border-radius: 4px;
+    /* overflow: hidden; */
+}
+
+.progress-bar {
+    height: 10px;
+    position: relative;
+    background-color: var(--bg-blue);
+    /* transition: width 0.3s ease-in-out; */
+}
