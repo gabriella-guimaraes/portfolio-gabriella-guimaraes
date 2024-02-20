@@ -1,0 +1,98 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 5rem;
+    height: auto;
+    gap: 5rem;
+}
+
+.Cards {
+    width: 100%;
+    height: fit-content;
+    background: var(--bg-transparent);
+    border-radius: 30px;
+    padding: 1.75rem;
+    margin-bottom: 2.5rem;
+    -webkit-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+    -moz-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+    box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 0.75rem;
+    text-align: left;
+}
+
+p {
+    color: var(--text-dark-2);
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+span {
+    color: var(--text-dark-2);
+    font-style: italic;
+    font-weight: 500;
+}
+
+li {
+    font-family: "Inter", sans-serif;
+    text-align: justify;
+    /* list-style: circle; */
+}
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.Education {
+    padding: 0.75rem;
+    border-left: 4px solid #6228C2;
+}
+
+.dot {
+    content: "";
+    background-color: #6228C2;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 109px;
+    transform: translateX(-49%);
+}
+
+.Hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0 10px;
+    gap: 5px;
+    width: 100%;
+
+    svg {
+        min-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.hobbie-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

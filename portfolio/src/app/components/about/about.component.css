@@ -4,6 +4,11 @@
     justify-content: center;
     padding: 2rem 5rem;
     height: 100vh;
+    
+}
+
+main {
+    background-color: var(--bg-primary);
 }
 
 
