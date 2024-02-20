@@ -2,19 +2,17 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
     padding: 2rem 5rem;
-    height: 100vh;
+    height: auto;
     gap: 5rem;
 }
 
 .Cards{
     width: 100%;
-    /* height: auto; */
     height: fit-content;
-    background: var(--bg-primary);
+    background: var(--bg-transparent);
     border-radius: 30px;
-    padding: 1rem;
+    padding: 1.75rem;
     margin-bottom: 2.5rem;
     -webkit-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     -moz-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
@@ -26,14 +24,13 @@ h2 {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     text-align: left;
-    margin-bottom: 1rem;
+    margin-bottom: 1.75rem;
 }
 
 .Tecnologies {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: flex-end; */
     height: auto;
     padding: 1rem;
     max-width: 70%;
@@ -44,10 +41,8 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 10px 0 10px;
-    gap: 5px;
-    /* width: 100%; */
 
     p {
         margin: 0 10px 0;
@@ -87,7 +82,7 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 10px 0 10px;
     gap: 5px;
     width: 100%;
@@ -111,4 +106,5 @@ h2 {
     width: 80%;
 }
 
+@media (max-width: 768px){}
 
