@@ -12,3 +12,13 @@
     background-color: var(--bg-blue);
     /* transition: width 0.3s ease-in-out; */
 }
+
+@media (max-width: 768px){
+    .container-bar {
+        width: 130px;
+        height: 10px;
+        background-color: var(--bg-secondary);
+        border-radius: 4px;
+        /* overflow: hidden; */
+    }
+}

@@ -73,7 +73,6 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: flex-end; */
     height: auto;
     padding: 1rem;
 }
@@ -106,5 +105,31 @@ h2 {
     width: 80%;
 }
 
-@media (max-width: 768px){}
+@media (max-width: 768px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 2rem;
+    }
+
+    /* .Tecnologies{
+        max-width: 40%;
+    } */
+
+    .tecnology {
+        max-width: 100%;
+    }
+
+    .language {
+        width: 50%;
+    }
+
+    app-progress-bar {
+        width: 10px;
+    }
+
+    .right-section{
+        width: 100%;
+    }
+}
 
