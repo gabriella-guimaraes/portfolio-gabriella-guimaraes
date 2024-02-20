@@ -50,7 +50,6 @@ span {
 li {
     font-family: "Inter", sans-serif;
     text-align: justify;
-    /* list-style: circle; */
 }
 
 .right-section{
@@ -62,6 +61,8 @@ li {
 .Education {
     padding: 0.75rem;
     border-left: 4px solid #6228C2;
+    /* overflow: scroll;
+    height: 50%; */
 }
 
 .dot {
@@ -95,4 +96,20 @@ li {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .Container {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 2rem;
+    }
+
+    .dot {
+        left: 62px;
+    }
+
+    .right-section{
+        width: 100%;
+    }
 }
