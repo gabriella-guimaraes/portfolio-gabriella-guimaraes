@@ -12,6 +12,7 @@ h1 {
     color: var(--text-dark);
     font-size: 64px;
     font-family: "Montserrat", sans-serif;
+    margin-top: 1.75rem;
 }
 
 h2 {
@@ -66,4 +67,44 @@ img {
     -webkit-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     -moz-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+}
+
+@media (max-width: 768px){
+    .Container {
+        padding: 2rem 2rem;
+        height: fit-content;
+    }
+
+    .Project-Card {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .Project-description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    .badges {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        gap: 10px;
+        max-width: inherit;
+    }
+
+    .badge {
+        margin-right: 0px;
+        max-width: fit-content;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
 }
