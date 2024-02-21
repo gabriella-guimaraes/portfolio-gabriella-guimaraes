@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 12px 24px;
+    padding: 20px 50px;
     min-height: 100vh;
 }
 
@@ -32,6 +32,7 @@ body{
     backdrop-filter: blur(80px);
     --webkit-backdrop-filter: blur(80px);
     height: auto;
+    padding: 0 4rem;
 }
 
 .fourth_section {
@@ -46,6 +47,7 @@ body{
     backdrop-filter: blur(80px);
     --webkit-backdrop-filter: blur(80px);
     height: auto;
+    padding: 0 4rem;
 }
 
 .fifth_section {
@@ -60,4 +62,26 @@ body{
     backdrop-filter: blur(80px);
     --webkit-backdrop-filter: blur(80px);
     height: auto;
+    padding: 0 4rem;
+}
+
+.sixth_section {
+    background: radial-gradient(
+        circle at top,
+        #e0706162 8%,
+        #a57cd88c 20%,
+        #7474ed81 27%,
+        #CBCBDE 50%,
+        #DDE4F5 72%
+    );
+    backdrop-filter: blur(80px);
+    --webkit-backdrop-filter: blur(80px);
+    height: auto;
+padding: 0 4rem;
+}
+
+@media (max-width: 768px){
+    .third_section, .fourth_section, .fifth_section, .sixth_section {
+        padding: 0;
+    }
 }

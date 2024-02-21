@@ -1,0 +1,69 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 5rem;
+    height: auto;
+    gap: 5rem;
+}
+
+h1 {
+    font-weight: 800;
+    color: var(--text-dark);
+    font-size: 64px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1.75rem;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    text-align: justify;
+    margin: 10px 0 50px 0;
+}
+
+img {
+    width: 400px;
+    max-width: 100%;
+    height: 90%;
+    padding: 1rem;
+}
+
+.badge {
+    padding: 1rem;
+    margin-right: 30px;
+    border-radius: 15px;
+    background: linear-gradient(
+        130deg,
+        #e07061da 8%,
+        #a57cd8e7 30%,
+        #7474ede7 67%
+    );
+    backdrop-filter: blur(80px);
+    --webkit-backdrop-filter: blur(80px);
+    color: var(--text-light);
+    font-weight: 600;
+}
+
+.Project-description {
+    padding: 1rem;
+}
+
+.Project-Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: var(--bg-transparent);
+    border-radius: 30px;
+    padding: 1.75rem;
+    margin-bottom: 2.5rem;
+    height: fit-content;
+    -webkit-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+    -moz-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+    box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+}

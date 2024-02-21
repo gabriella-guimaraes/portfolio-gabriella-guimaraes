@@ -10,6 +10,7 @@
     --bg-orange: #FF3214;
     --text-dark: #1B1B21;
     --text-dark-2: #51516D;
+    --text-light: #f0f3fc;
 }
 
 * {
@@ -22,5 +23,4 @@ html, body {
     font-family:  'Roboto', sans-serif;
     color: var(--text-dark);
     max-width: 100vw;
-    /* overflow-x: hidden; */
 }
