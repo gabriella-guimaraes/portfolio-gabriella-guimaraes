@@ -55,7 +55,7 @@ img {
     padding: 1rem;
 }
 
-.Project-Card {
+.Project-Card, a {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,6 +67,9 @@ img {
     -webkit-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     -moz-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text-dark);
 }
 
 @media (max-width: 768px){
