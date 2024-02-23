@@ -22,7 +22,7 @@ h2 {
     margin-bottom: 1.75rem;
 }
 
-p {
+.description, .location {
     font-family: "Inter", sans-serif;
     text-align: justify;
     margin: 10px 0 50px 0;
@@ -38,6 +38,7 @@ img {
 .badge {
     padding: 1rem;
     margin-right: 30px;
+    margin-top: 1rem;
     border-radius: 15px;
     background: linear-gradient(
         130deg,
@@ -49,13 +50,18 @@ img {
     --webkit-backdrop-filter: blur(80px);
     color: var(--text-light);
     font-weight: 600;
+    margin-top: 1.75rem;
+}
+
+.badges {
+    margin-top: 1.75rem;
 }
 
 .Project-description {
     padding: 1rem;
 }
 
-.Project-Card, a {
+.Project-Card {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,9 +73,20 @@ img {
     -webkit-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     -moz-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     cursor: pointer;
     text-decoration: none;
     color: var(--text-dark);
+    height: fit-content;
+}
+
+p {
+    text-align: justify;
 }
 
 @media (max-width: 768px){
@@ -78,7 +95,7 @@ img {
         height: fit-content;
     }
 
-    .Project-Card {
+    .Project-Card, a {
         display: flex;
         flex-direction: column;
         max-width: 100%;
