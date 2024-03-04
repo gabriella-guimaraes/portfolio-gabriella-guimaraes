@@ -12,10 +12,6 @@ body{
         text-decoration: none;
     }
     
-    body {
-        /* background-color: var(--bg-primary); */
-    }
-    
     nav {
         /* max-width: 1200px; */
         margin: auto;
@@ -57,18 +53,6 @@ body{
         transform: scale(1.2);
         color: var(--text-dark);
     }
-    
-    /* .link a{
-        position: relative;
-        padding-bottom: 0.75rem;
-        color: var(--text-dark-2);
-        transition: .3s;
-    }
-    
-    .link a:hover{
-        transform: scale(1.2);
-        color: var(--text-dark);
-    } */
     
     @media (max-width: 768px){
         .nav-links{
