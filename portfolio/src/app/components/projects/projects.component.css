@@ -75,7 +75,7 @@ img {
     box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
 }
 
-a {
+.Card-Link {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -89,13 +89,33 @@ p {
     text-align: justify;
 }
 
+.Coming-Soon-Projects-text {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.Coming-Soon-Projects {
+    margin-bottom: 5rem;
+    a {
+        color: var(--bg-purple);
+        cursor: pointer;
+        text-decoration: none;
+        transition: .3s;
+    }
+
+    a:hover {
+        transform: scale(1.2);
+        color: var(--bg-blue);
+    }
+}
+
 @media (max-width: 768px){
     .Container {
         padding: 2rem 2rem;
         height: fit-content;
     }
 
-    .Project-Card, a {
+    .Project-Card, .Card-Link {
         display: flex;
         flex-direction: column;
         max-width: 100%;
