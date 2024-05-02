@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { floatAnimation } from '../../utils/animations';
 
 
 @Component({
@@ -6,7 +7,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
+  animations: [floatAnimation]
 })
 export class HomeComponent {
 
