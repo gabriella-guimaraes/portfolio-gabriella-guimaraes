@@ -27,6 +27,7 @@
     -webkit-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     -moz-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+    transition: transform 0.5s;
     
 }
 
@@ -35,6 +36,10 @@ h2 {
     font-weight: 700;
     text-align: left;
     margin-bottom: 1.75rem;
+}
+
+.TecnologyCard:hover {
+    transform: scale(1.1);
 }
 
 .Tecnologies {
@@ -85,6 +90,10 @@ h2 {
     padding: 1rem;
 }
 
+.LanguageCard:hover {
+    transform: scale(1.1);
+}
+
 .language{
     display: flex;
     flex-direction: row;
@@ -105,13 +114,20 @@ h2 {
     width: 100%;
 }
 
+.SoftwaresCard:hover {
+    transform: scale(1.1);
+}
 
+.PersonalSkillsCard:hover {
+    transform: scale(1.1);
+}
 
 .right-section{
     display: flex;
     flex-direction: column;
     width: 80%;
 }
+
 
 @media (max-width: 768px){
     .Container{
