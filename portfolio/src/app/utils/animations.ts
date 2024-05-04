@@ -7,9 +7,9 @@ export const floatAnimation = trigger('float', [
         opacity:0
     })),
     transition('void => *', [
-        animate('500ms ease-out')
+        animate('700ms ease-out')
     ]),
     transition('* => void', [
-        animate('500ms ease-in')
+        animate('700ms ease-in')
     ])
 ]);
