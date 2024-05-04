@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 2rem 5rem;
+    padding: 2rem 7rem;
     height: auto;
     gap: 5rem;
 }
@@ -73,7 +73,7 @@ li {
     height: 16px;
     display: inline-block;
     position: absolute;
-    left: 174px;
+    left: 206px;
     transform: translateX(-49%);
 }
 
