@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 5rem;
+    padding: 2rem 7rem;
     height: auto;
     gap: 5rem;
 }
@@ -31,7 +31,7 @@ h2 {
 img {
     width: 400px;
     max-width: 100%;
-    height: 90%;
+    /* height: 90%; */
     padding: 1rem;
 }
 
@@ -132,7 +132,7 @@ p {
 
     .badges {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         align-items: center;
         gap: 10px;
         max-width: inherit;
