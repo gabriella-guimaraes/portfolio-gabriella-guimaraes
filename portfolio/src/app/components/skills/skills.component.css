@@ -2,9 +2,19 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 2rem 5rem;
+    padding: 2rem 7rem;
     height: auto;
     gap: 5rem;
+    /* margin-top: 20vh; */
+}
+
+.SkillComponent h1 {
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 5vh;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 2rem 0rem;
 }
 
 .Cards{
@@ -33,7 +43,7 @@ h2 {
     justify-content: center;
     height: auto;
     padding: 1rem;
-    max-width: 70%;
+    max-width: 100%;
 
 }
 
@@ -63,10 +73,8 @@ h2 {
 }
 
 
-.personal-skills li{
-    list-style: none;
-    margin-bottom: 5px;
-    font-weight: 500;
+.personal-skills .skills{
+    width: 100%;
 }
 
 .Languages{
@@ -110,6 +118,13 @@ h2 {
         display: flex;
         flex-direction: column;
         padding: 2rem 2rem;
+    }
+    .SkillComponent h1 {
+        font-size: 48px;
+    }
+
+    .Tecnologies {
+        max-width: fit-content;
     }
 
     .tecnology {
