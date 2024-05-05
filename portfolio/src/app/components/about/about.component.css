@@ -4,10 +4,7 @@
     justify-content: center;
     padding: 2rem 5rem;
     height: 100vh;
-    overflow: hidden;
-    will-change: transform, opacity;
-    max-width: max-content;
-    
+    will-change: transform, opacity;  
 }
 
 main {
@@ -51,6 +48,7 @@ footer {
         display: flex;
         flex-direction: column;
         height: auto;
+        padding: 2rem 2rem;
     }
 
     .Intro-text{

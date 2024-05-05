@@ -126,6 +126,7 @@ p {
 }
 
 @media (max-width: 800px){
+
     .Project-description {
         width: 263px;
         padding: 1rem;

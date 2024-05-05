@@ -2,8 +2,8 @@
     padding: 5rem 8rem;
     height: 100vh;
     will-change: transform, opacity;
-    overflow: hidden;
-    max-width: max-content;
+    /* overflow: hidden;
+    max-width: max-content; */
 }
 
 .intro h1 {
@@ -32,6 +32,7 @@
 }
 
 @media (max-width: 768px){
+
     .Container {
         padding: 2rem 4rem;
     }
@@ -45,8 +46,4 @@
         font-size: 18px;
         text-align: left;
     }
-
-    /* .icons {
-        justify-content: flex-start;
-    } */
 }

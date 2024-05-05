@@ -2,10 +2,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 2rem 7rem;
+    padding: 2rem 8rem;
     height: auto;
     gap: 5rem;
-    /* margin-top: 20vh; */
     will-change: transform, opacity;
 }
 
@@ -40,6 +39,7 @@ h2 {
 }
 
 .TecnologyCard {
+    width: 90%;
     transition: transform 0.5s;
 }
 
@@ -63,6 +63,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     margin: 10px 0 10px;
+    max-width: 85%;
 
     p {
         margin: 0 10px 0;
@@ -139,9 +140,16 @@ h2 {
         display: flex;
         flex-direction: column;
         padding: 2rem 2rem;
+        width: 95vw;
     }
+    
+
     .SkillComponent h1 {
         font-size: 48px;
+    }
+
+    .TecnologyCard {
+        width: 100%;
     }
 
     .Tecnologies {
@@ -149,7 +157,11 @@ h2 {
     }
 
     .tecnology {
-        max-width: 100%;
+        max-width: 70%;
+    }
+
+    .tecnology p {
+        font-size: 14px;
     }
 
     .language {
@@ -157,7 +169,7 @@ h2 {
     }
 
     app-progress-bar {
-        width: 10px;
+        width: 5px;
     }
 
     .right-section{
