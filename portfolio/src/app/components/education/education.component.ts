@@ -1,5 +1,5 @@
-import { Component,HostListener, ElementRef } from '@angular/core';
-import { rightFloatAnimation, leftFloatAnimation } from '../../utils/animations';
+import { Component,HostListener, ElementRef, Renderer2, OnInit } from '@angular/core';
+import { rightFloatAnimation, leftFloatAnimation, floatAnimation } from '../../utils/animations';
 
 @Component({
   selector: 'app-education',
@@ -7,12 +7,34 @@ import { rightFloatAnimation, leftFloatAnimation } from '../../utils/animations'
   imports: [],
   templateUrl: './education.component.html',
   styleUrl: './education.component.css',
-  animations: [rightFloatAnimation, leftFloatAnimation]
+  animations: [rightFloatAnimation, leftFloatAnimation, floatAnimation]
 })
-export class EducationComponent {
+export class EducationComponent implements OnInit {
   isVisible: boolean = false;
+  isMobile: boolean = false;
 
-  constructor(private elementRef: ElementRef) {}
+  constructor(private elementRef: ElementRef, private render: Renderer2) {}
+
+  ngOnInit() {
+    this.checkScreenWidth();
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.checkScreenWidth
+  }
+
+  checkScreenWidth() {
+    const sectionElement = this.elementRef.nativeElement.querySelector('#animationTrigger');
+    if (window.innerWidth <= 768) {
+      this.render.addClass(sectionElement, 'mobile');
+      this.isMobile = true; // Define true para telas mobile
+    } else {
+      this.render.removeClass(sectionElement, 'mobile');
+      this.isMobile = false; // Define false para telas desktop
+    }
+  }
+
 
   @HostListener('window:scroll', [])
   onWindowScroll() {

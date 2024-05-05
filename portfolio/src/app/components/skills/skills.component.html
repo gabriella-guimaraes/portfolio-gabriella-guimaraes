@@ -2,7 +2,7 @@
     <h1 class="content"[@float]="isVisible ? 'visible' : 'hidden'">Habilidades</h1>
     <main class="Container">
         <section class="TecnologyCard">
-            <section class="Cards" [@right-float]="isVisible ? 'visible' : 'hidden'">
+            <section class="Cards content" id="animationTrigger" [@float]="isVisible && isMobile ? 'visible' : 'hidden'" [@right-float]="isVisible && !isMobile ? 'visible' : 'hidden'">
                 <section class="Tecnologies">
                     <h2>Tecnologias</h2>
                     <!-- HTML -->
@@ -158,7 +158,7 @@
             </section>
         </section>
     
-        <section class="right-section" [@left-float]="isVisible ? 'visible' : 'hidden'">
+        <section class="right-section content" id="animationTrigger" [@float]="isVisible && isMobile ? 'visible' : 'hidden'" [@left-float]="isVisible && !isMobile ? 'visible' : 'hidden'">
             <section class="Cards LanguageCard">
                 <section class="Languages">
                     <h2>Idiomas</h2>
