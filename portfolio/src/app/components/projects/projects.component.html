@@ -1,7 +1,7 @@
 <main class="Container">
-    <h1>Meus Projetos</h1>
+    <h1 class="content" [@float]="isVisible ? 'visible' : 'hidden'">Meus Projetos</h1>
 
-    <section class="Projects">
+    <section class="Projects content" [@float]="isVisible ? 'visible' : 'hidden'">
         <section class="Project-Card">
             <a class="Card-Link" href="https://github.com/gabriella-guimaraes/Livreiro" target="_blank">
                 <img src="assets/livreiro_snapshoot.png" />
@@ -32,9 +32,8 @@
                     </section>
                 </section>
             </a>
-            
-            
         </section>
+
         <section class="Project-Card">
             <a class="Card-Link" href="https://github.com/gabriella-guimaraes/movie-browser" target="_blank">
                 <img src="assets/movie-browser-snippet.png" />
@@ -51,6 +50,7 @@
                 </section>
             </a>
         </section>
+
     </section>
     <section class="Coming-Soon-Projects">
         <h1 class="Coming-Soon-Projects-text">Fique ligado para mais projetos!</h1>

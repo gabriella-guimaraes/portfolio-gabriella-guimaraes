@@ -1,71 +1,73 @@
 <main class="Container">
-    <section class="Cards">
-        <h2>Treinamento e Educação</h2>
-        <section class="Education">
-            <section class="course">
-                <div class="dot"></div>
-                <h3>Graduação - Análise e Desenvolvimento de Sistemas</h3>
-                <p>Universidade Anhembi Morumbi (cursando) | conclusão 2024</p>
-                <li>Graduação em Análise e Desenvolvimento de Sistemas.</li>
-                <li>
-                    Formação focada em projetar, desenvolver, testar, manter e gerenciar
-                    sistemas tecnológicos de informação.
-                </li>
-                <li>
-                    Desenvolvimento de habilidades como raciocínio lógico, resolução de
-                    problemas, trabalho em equipe e comunicação.
-                </li>
+    <section class="education-card">
+        <section class="Cards content" [@right-float]="isVisible ? 'visible' : 'hidden'">
+            <h2>Treinamento e Educação</h2>
+            <section class="Education">
+                <section class="course">
+                    <div class="dot"></div>
+                    <h3>Graduação - Análise e Desenvolvimento de Sistemas</h3>
+                    <p>Universidade Anhembi Morumbi (cursando) | conclusão 2024</p>
+                    <li>Graduação em Análise e Desenvolvimento de Sistemas.</li>
+                    <li>
+                        Formação focada em projetar, desenvolver, testar, manter e gerenciar
+                        sistemas tecnológicos de informação.
+                    </li>
+                    <li>
+                        Desenvolvimento de habilidades como raciocínio lógico, resolução de
+                        problemas, trabalho em equipe e comunicação.
+                    </li>
+                </section>
+    
+                <section class="course">
+                    <div class="dot"></div>
+                    <h3>Desenvolvimento WEB - Avançado</h3>
+                    <p>Udemy (cursando) | Dezembro 2023</p>
+                    <li>Desenvolvimento de projetos utilizando HTML, CSS, Javascript, JQuery, React.js, Web APIS, Phyton, Django, Wagtail e outras tecnologias.</li>
+                    <li>Aprofundamento em linguagens para Web.</li>
+                    <li>Introdução ao Django.</li>
+                </section>
+    
+                <section class="course">
+                    <div class="dot"></div>
+                    <h3>Typescript - Avançado</h3>
+                    <p>Udemy (Cursando) | Novembro 2023</p>
+                    <li>Aprofundamento em TypeScript voltado para React, Angular, Express e outras tecnologias.</li>
+                    <li>Desenvolvimento de Microfrontend conectado a API Restful.</li>
+                </section>
+    
+                <section class="course">
+                    <div class="dot"></div>
+                    <h3>PHP Moderno - Básico ao Avançado</h3>
+                    <p>Udemy (cursando) | Novembro 2023</p>
+                    <li>Introdução a PHP do básico ao avançado.</li>
+                    <li>Desenvolvimento de Projetos voltados a programação orientada a objetos, injeção de dependência, CRUD e conexão com banco de dados MySQL.</li>
+                </section>
+    
+                <section class="course">
+                    <div class="dot"></div>
+                    <h3>Desenvolvimento BackEnd</h3>
+                    <p>Alura | conclusão Agosto 2022</p>
+                    <li>Trilha de cursos voltada para a introdução ao Desenvolvimento Back-End.</li>
+                    <li>Programação orientada a objetos com C# e .Net.</li>
+                    <li>SQL Server, MySQL e Oracle.</li>
+                </section>
+    
+                <section class="course">
+                    <div class="dot"></div>
+                    <h3>Bootcamp Desenvolvimento FrontEnd</h3>
+                    <p>Laboratória | conclusão Maio 2021</p>
+                    <li>Elaboração de projetos utilizando JavaScript, HTML 5, CSS 3, React.js, Material UI, Jest, Node.js entre outras tecnologias.</li>
+                    <li>Aprimoramento da Autoaprendizagem.</li>
+                    <li>Desenvolvimento de habilidades socio-emocionais como resiliência, trabalho em equipe, cultura do feedback, comunicação e escuta ativa.</li>
+                    <li>Metodologias ágeis.</li>
+                </section>
             </section>
-
-            <section class="course">
-                <div class="dot"></div>
-                <h3>Desenvolvimento WEB - Avançado</h3>
-                <p>Udemy (cursando) | Dezembro 2023</p>
-                <li>Desenvolvimento de projetos utilizando HTML, CSS, Javascript, JQuery, React.js, Web APIS, Phyton, Django, Wagtail e outras tecnologias.</li>
-                <li>Aprofundamento em linguagens para Web.</li>
-                <li>Introdução ao Django.</li>
-            </section>
-
-            <section class="course">
-                <div class="dot"></div>
-                <h3>Typescript - Avançado</h3>
-                <p>Udemy (Cursando) | Novembro 2023</p>
-                <li>Aprofundamento em TypeScript voltado para React, Angular, Express e outras tecnologias.</li>
-                <li>Desenvolvimento de Microfrontend conectado a API Restful.</li>
-            </section>
-
-            <section class="course">
-                <div class="dot"></div>
-                <h3>PHP Moderno - Básico ao Avançado</h3>
-                <p>Udemy (cursando) | Novembro 2023</p>
-                <li>Introdução a PHP do básico ao avançado.</li>
-                <li>Desenvolvimento de Projetos voltados a programação orientada a objetos, injeção de dependência, CRUD e conexão com banco de dados MySQL.</li>
-            </section>
-
-            <section class="course">
-                <div class="dot"></div>
-                <h3>Desenvolvimento BackEnd</h3>
-                <p>Alura | conclusão Agosto 2022</p>
-                <li>Trilha de cursos voltada para a introdução ao Desenvolvimento Back-End.</li>
-                <li>Programação orientada a objetos com C# e .Net.</li>
-                <li>SQL Server, MySQL e Oracle.</li>
-            </section>
-
-            <section class="course">
-                <div class="dot"></div>
-                <h3>Bootcamp Desenvolvimento FrontEnd</h3>
-                <p>Laboratória | conclusão Maio 2021</p>
-                <li>Elaboração de projetos utilizando JavaScript, HTML 5, CSS 3, React.js, Material UI, Jest, Node.js entre outras tecnologias.</li>
-                <li>Aprimoramento da Autoaprendizagem.</li>
-                <li>Desenvolvimento de habilidades socio-emocionais como resiliência, trabalho em equipe, cultura do feedback, comunicação e escuta ativa.</li>
-                <li>Metodologias ágeis.</li>
-            </section>
-        </section>
+    </section>
     </section>
 
 
-    <section class="right-section">
-        <section class="Cards">
+    <section class="right-section content" [@left-float]="isVisible ? 'visible' : 'hidden'">
+        <section class="Cards interests-card">
             <section class="Interests">
                 <h2>Áreas de Interesse</h2>
                 <li>Desenvolvimento FullStack</li>
@@ -75,7 +77,7 @@
             </section>
         </section>
 
-        <section class="Cards">
+        <section class="Cards hobbies-card">
             <h2>Hobbies</h2>
             <section class="Hobbies">
                 <section class="hobbie-icons">

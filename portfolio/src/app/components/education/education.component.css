@@ -17,7 +17,9 @@
     -webkit-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     -moz-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
     box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+    transition: transform 0.5s;
 }
+
 
 h2 {
     font-family: "Inter", sans-serif;
@@ -65,6 +67,14 @@ li {
     height: 50%; */
 }
 
+.education-card {
+    transition: transform 0.5s;
+}
+
+.education-card:hover {
+    transform: scale(1.1);
+}
+
 .dot {
     content: "";
     background-color: #6228C2;
@@ -73,8 +83,12 @@ li {
     height: 16px;
     display: inline-block;
     position: absolute;
-    left: 206px;
+    left: 29px;
     transform: translateX(-49%);
+}
+
+.interests-card:hover {
+    transform: scale(1.1);
 }
 
 .Hobbies {
@@ -98,6 +112,10 @@ li {
     gap: 10px;
 }
 
+.hobbies-card:hover {
+    transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
     .Container {
         display: flex;
@@ -106,6 +124,7 @@ li {
     }
 
     .dot {
+        transform: translateX(-40px);
         left: 62px;
     }
 

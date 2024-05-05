@@ -38,6 +38,10 @@ h2 {
     margin-bottom: 1.75rem;
 }
 
+.TecnologyCard {
+    transition: transform 0.5s;
+}
+
 .TecnologyCard:hover {
     transform: scale(1.1);
 }
