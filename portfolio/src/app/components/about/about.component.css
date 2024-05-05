@@ -7,6 +7,13 @@
     will-change: transform, opacity;  
 }
 
+.divider {
+    width: 5px;
+    height: auto;
+    background-color: var(--bg-dark-theme);
+    margin: 20px 0;
+}
+
 main {
     background-color: var(--bg-primary);
 }
@@ -43,6 +50,10 @@ footer {
     font-weight: 600;
 }
 
+footer p {
+    margin-left: 4rem;
+}
+
 @media (max-width: 768px){
     .Container{
         display: flex;
@@ -58,5 +69,9 @@ footer {
     .Intro-text h1{
         font-size: 48px;
         text-align: center;
+    }
+
+    footer p {
+        margin-left: 0;
     }
 }
