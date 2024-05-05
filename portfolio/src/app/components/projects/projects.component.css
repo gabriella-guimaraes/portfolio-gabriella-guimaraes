@@ -5,6 +5,9 @@
     padding: 2rem 7rem;
     height: auto;
     gap: 5rem;
+    will-change: transform, opacity;
+    overflow: hidden;
+    max-width: max-content;
 }
 
 h1 {

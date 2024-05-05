@@ -4,6 +4,8 @@ body{
     align-items: center;
     padding: 20px 50px;
     min-height: 100vh;
+    overflow: hidden;
+    will-change: transform, opacity;
 }
 
 .NavBar {

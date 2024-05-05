@@ -1,6 +1,9 @@
 .Container {
     padding: 5rem 8rem;
     height: 100vh;
+    will-change: transform, opacity;
+    overflow: hidden;
+    max-width: max-content;
 }
 
 .intro h1 {

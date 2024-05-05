@@ -6,6 +6,7 @@
     height: auto;
     gap: 5rem;
     /* margin-top: 20vh; */
+    will-change: transform, opacity;
 }
 
 .SkillComponent h1 {

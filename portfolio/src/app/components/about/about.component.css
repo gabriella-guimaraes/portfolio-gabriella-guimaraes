@@ -4,6 +4,9 @@
     justify-content: center;
     padding: 2rem 5rem;
     height: 100vh;
+    overflow: hidden;
+    will-change: transform, opacity;
+    max-width: max-content;
     
 }
 

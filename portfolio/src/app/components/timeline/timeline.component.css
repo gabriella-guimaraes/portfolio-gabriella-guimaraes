@@ -4,6 +4,9 @@
     justify-content: center;
     padding: 3.75rem 7rem;
     height: fit-content;
+    will-change: transform, opacity;
+    overflow: hidden;
+    max-width: max-content;
 }
 
 .timeline-card {
