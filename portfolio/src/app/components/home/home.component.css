@@ -8,7 +8,7 @@
 
 .intro h1 {
     font-weight: 800;
-    color: var(--text-dark);
+    color: var(--text-light);
     font-size: 72px;
     margin: 10rem 0 10px 0;
     font-family: "Montserrat", sans-serif;
@@ -18,7 +18,7 @@
 .description p {
     font-weight: 300;
     font-size: 20px;
-    color: var(--text-dark-2);
+    color: var(--bg-dark-theme-purple);
     margin: -5px 0px 18px 0px;
     text-align: center;
 }
@@ -29,6 +29,18 @@
     justify-content: center;
     gap: 2rem;
     cursor: pointer;
+    color: var(--bg-dark-theme-purple);
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(1px 1px 4px rgba(149,125,212,0.7)); 
+    border-radius: 100%;
 }
 
 @media (max-width: 768px){
