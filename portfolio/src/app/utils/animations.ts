@@ -65,11 +65,9 @@ export const introAnimationFloat = trigger('intro-float', [
     ])
 ]);
 
-export const typingAnimation =  trigger('typingAnimation', [
-    transition(':enter', [
-      style({ width: '0' }),
-      animate('3s', style({ width: '*' }))
-    ])
-  ]);
-
-  // TODO: testar a  animação de typing na home page
+// export const typingAnimation =  trigger('typingAnimation', [
+//     transition(':enter', [
+//       style({ width: '0' }),
+//       animate('3s', style({ width: '*' }))
+//     ])
+//   ]);

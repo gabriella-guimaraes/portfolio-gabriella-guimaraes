@@ -4,8 +4,14 @@ body{
     align-items: center;
     padding: 20px 50px;
     min-height: 100vh;
-    /* overflow: hidden; */
     will-change: transform, opacity;
+}
+
+.stars-bg {
+    background-image: url('/assets/stars_bg.jpeg');
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-position: center;
 }
 
 .NavBar {
@@ -29,7 +35,7 @@ body{
         max-width: 100px;
         h1{
             font-weight: 600;
-            color: var(--text-dark);
+            color: var(--text-light);
             font-family: "Montserrat", sans-serif;
         }
     }
@@ -47,13 +53,13 @@ body{
         cursor: pointer;
         font-size: 16px;
         font-weight: 500;
-        color: var(--text-dark-2);
+        color: var(--bg-dark-theme-purple);
         transition: .3s;
     }
 
     button:hover {
         transform: scale(1.2);
-        color: var(--text-dark);
+        color: var(--text-light);
     }
     
     @media (max-width: 768px){
@@ -88,7 +94,7 @@ body{
         span {
             border-top: 2px solid;
             width: 25px;
-            color: var(--text-dark-2);
+            color: var(--text-light);
             display: block;
             cursor: pointer;
         }
@@ -121,7 +127,7 @@ body{
     }
 }
 
-.first_section{
+/* .first_section{
     background: radial-gradient(
         circle at right,
         #e0706162 8%,
@@ -133,10 +139,10 @@ body{
     backdrop-filter: blur(80px);
     --webkit-backdrop-filter: blur(80px);
     
-}
+} */
 
 .third_section{
-    background: radial-gradient(
+    /* background: radial-gradient(
         circle at left,
         #e0706162 8%,
         #a57cd88c 20%,
@@ -145,13 +151,14 @@ body{
         #DDE4F5 72%
     );
     backdrop-filter: blur(80px);
-    --webkit-backdrop-filter: blur(80px);
+    --webkit-backdrop-filter: blur(80px); */
+    
     height: auto;
     padding: 0 4rem;
 }
 
 .fourth_section {
-    background: radial-gradient(
+    /* background: radial-gradient(
         circle at right,
         #e0706162 8%,
         #a57cd88c 20%,
@@ -160,13 +167,14 @@ body{
         #DDE4F5 72%
     );
     backdrop-filter: blur(80px);
-    --webkit-backdrop-filter: blur(80px);
+    --webkit-backdrop-filter: blur(80px); */
+    background-color: #DDE4F5;
     height: auto;
     padding: 0 4rem;
 }
 
 .fifth_section {
-    background: radial-gradient(
+    /* background: radial-gradient(
         circle at bottom,
         #e0706162 8%,
         #a57cd88c 20%,
@@ -175,13 +183,13 @@ body{
         #DDE4F5 72%
     );
     backdrop-filter: blur(80px);
-    --webkit-backdrop-filter: blur(80px);
+    --webkit-backdrop-filter: blur(80px); */
     height: auto;
     padding: 0 4rem;
 }
 
 .sixth_section {
-    background: radial-gradient(
+    /* background: radial-gradient(
         circle at top,
         #e0706162 8%,
         #a57cd88c 20%,
@@ -190,9 +198,9 @@ body{
         #DDE4F5 72%
     );
     backdrop-filter: blur(80px);
-    --webkit-backdrop-filter: blur(80px);
+    --webkit-backdrop-filter: blur(80px); */
     height: auto;
-padding: 0 4rem;
+    padding: 0 4rem;
 }
 
 @media (max-width: 768px){

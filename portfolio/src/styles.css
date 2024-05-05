@@ -4,6 +4,9 @@
 :root {
     --bg-primary: #DDE4F5;
     --bg-secondary: #CBCBDE;
+    --bg-dark-theme: #080F19;
+    --bg-gray: #272E44;
+    --bg-dark-theme-purple: #7E5FC8;
     --bg-transparent: #dde4f5b2;
     --bg-purple: #6228C2;
     --bg-blue: #1918E2;

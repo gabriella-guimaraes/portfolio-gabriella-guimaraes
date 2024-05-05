@@ -1,42 +1,44 @@
-<section class="first_section">
-    <section class="NavBar">
-        <nav>
-            <div class="nav-logo">
-                <a href="/">
-                    <h1>Gabriella</h1>
-                </a>
-            </div>
-            <span (click)="btnMobile()" [ngClass]="btnMenu ? 'active': ''"></span>
-            <ul class="nav-links" [ngClass]="btnMenu ? 'active' : ''">
-                <button class="link" (click)="goToHome()">Home</button>
-                <button class="link" (click)="goToAbout()">Sobre</button>
-                <button class="link" (click)="goToSkills()">Resumo</button>
-                <button class="link" (click)="goToProjects()">Projetos</button>
-            </ul>
-        </nav>
+<main class="stars-bg">
+    <section class="first_section">
+        <section class="NavBar">
+            <nav>
+                <div class="nav-logo">
+                    <a href="/">
+                        <h1>Gabriella</h1>
+                    </a>
+                </div>
+                <span (click)="btnMobile()" [ngClass]="btnMenu ? 'active': ''"></span>
+                <ul class="nav-links" [ngClass]="btnMenu ? 'active' : ''">
+                    <button class="link" (click)="goToHome()">Home</button>
+                    <button class="link" (click)="goToAbout()">Sobre</button>
+                    <button class="link" (click)="goToSkills()">Resumo</button>
+                    <button class="link" (click)="goToProjects()">Projetos</button>
+                </ul>
+            </nav>
+        </section>
+        <app-home></app-home>
     </section>
-    <app-home></app-home>
-</section>
-
-<section class="second_section" id="About">
-    <app-about></app-about>
-</section>
-
-<section class="third_section" id="Skills">
-    <app-skills></app-skills>
-</section>
-
-<section class="fourth_section" id="Timeline">
-    <app-timeline></app-timeline>
-</section>
-
-<section class="fifth_section" id="Education">
-    <app-education></app-education>
-</section>
-
-<section class="sixth_section" id="Projects">
-    <app-projects></app-projects>
-</section>
+    
+    <section class="second_section" id="About">
+        <app-about></app-about>
+    </section>
+    
+    <section class="third_section" id="Skills">
+        <app-skills></app-skills>
+    </section>
+    
+    <section class="fourth_section" id="Timeline">
+        <app-timeline></app-timeline>
+    </section>
+    
+    <section class="fifth_section" id="Education">
+        <app-education></app-education>
+    </section>
+    
+    <section class="sixth_section" id="Projects">
+        <app-projects></app-projects>
+    </section>
+</main>
 
 
 <router-outlet />

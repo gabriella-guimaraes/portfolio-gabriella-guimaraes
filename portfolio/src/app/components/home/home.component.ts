@@ -25,4 +25,7 @@ export class HomeComponent {
     // Verificar se a parte superior do elemento está dentro da janela de visualização
     this.isVisible = rect.top < triggerHeight;
   }
+
+  // typing animation
+  // textToShow: string = "Fullstack Web Developer"
 }
