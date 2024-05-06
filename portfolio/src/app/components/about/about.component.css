@@ -5,10 +5,11 @@
     padding: 2rem 5rem;
     height: 100vh;
     will-change: transform, opacity;  
+    color: var(--text-dark);
 }
 
 .divider {
-    width: 5px;
+    width: 3px;
     height: auto;
     background-color: var(--bg-dark-theme);
     margin: 20px 0;
