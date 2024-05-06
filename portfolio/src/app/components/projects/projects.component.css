@@ -8,14 +8,16 @@
     will-change: transform, opacity;
     overflow: hidden;
     max-width: max-content;
+    color: var(--bg-primary)
 }
 
 h1 {
     font-weight: 800;
-    color: var(--text-dark);
+    /* color: var(--text-dark); */
     font-size: 64px;
     font-family: "Montserrat", sans-serif;
     margin-top: 1.75rem;
+    text-align: center;
 }
 
 h2 {
@@ -76,19 +78,22 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: var(--bg-transparent);
+    background: var(--bg-gray-transparent);
     border-radius: 30px;
     padding: 1.75rem;
     margin-bottom: 2.5rem;
     height: fit-content;
-    -webkit-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
-    -moz-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
-    box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+    border: 1px solid #CBCBDE;
     transition: 0.5s;
 }
 
 .Project-Card:hover {
     transform: scale(1.1);
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    border-radius: 30px;
+    height: fit-content;
 }
 
 .Card-Link {
@@ -97,7 +102,7 @@ img {
     justify-content: center;
     cursor: pointer;
     text-decoration: none;
-    color: var(--text-dark);
+    color: var(--text-light);
     height: fit-content;
 }
 
