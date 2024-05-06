@@ -9,6 +9,8 @@ import { TimelineComponent } from './components/timeline/timeline.component';
 import { EducationComponent } from './components/education/education.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
+
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -26,6 +28,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   title = 'portfolio';
 

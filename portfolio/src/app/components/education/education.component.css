@@ -2,22 +2,33 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 2rem 5rem;
+    padding: 4.5rem 7rem;
     height: auto;
     gap: 5rem;
+    will-change: transform, opacity;
+    overflow: hidden;
+    max-width: max-content;
+    color: var(--bg-primary);
+}
+
+.divider {
+    max-width: 100%;
+    height: 2px;
+    background-color: var(--bg-primary);
+    margin: 20px 0;
 }
 
 .Cards {
     width: 100%;
     height: fit-content;
-    background: var(--bg-transparent);
+    background: var(--bg-gray-transparent);
     border-radius: 30px;
     padding: 1.75rem;
-    margin-bottom: 2.5rem;
-    -webkit-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
-    -moz-box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
-    box-shadow: 6px 4px 10px 0px rgba(81,81,109,0.22);
+    /* margin-bottom: 2.5rem; */
+    border: 1px solid #CBCBDE;
+    transition: transform 0.5s;
 }
+
 
 h2 {
     font-family: "Inter", sans-serif;
@@ -60,21 +71,49 @@ li {
 
 .Education {
     padding: 0.75rem;
-    border-left: 4px solid #6228C2;
+    border-left: 4px solid #7E5FC8;
+    margin-bottom: 2.5rem; 
     /* overflow: scroll;
     height: 50%; */
 }
 
+.education-card {
+    transition: transform 0.5s;
+    height: fit-content;
+    margin-bottom: 2.5rem;
+}
+
+.education-card:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    border-radius: 30px;
+    height: fit-content;
+}
+
 .dot {
     content: "";
-    background-color: #6228C2;
+    background-color: var(--bg-dark-theme-purple);
     border-radius: 50%;
     width: 16px;
     height: 16px;
     display: inline-block;
     position: absolute;
-    left: 174px;
+    left: 29px;
     transform: translateX(-49%);
+}
+
+.interests-card {
+    margin-bottom: 2.5rem; 
+}
+
+.interests-card:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    border-radius: 30px;
 }
 
 .Hobbies {
@@ -98,6 +137,19 @@ li {
     gap: 10px;
 }
 
+.hobbies-card {
+    margin-bottom: 2.5rem; 
+
+}
+
+.hobbies-card:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    box-shadow: 1px 1px 30px 0px rgba(203,203,222,0.33);
+    border-radius: 30px;
+}
+
 @media (max-width: 768px) {
     .Container {
         display: flex;
@@ -106,6 +158,7 @@ li {
     }
 
     .dot {
+        transform: translateX(-40px);
         left: 62px;
     }
 

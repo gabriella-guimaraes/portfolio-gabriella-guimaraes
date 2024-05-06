@@ -4,9 +4,13 @@
 :root {
     --bg-primary: #DDE4F5;
     --bg-secondary: #CBCBDE;
+    --bg-dark-theme: #080F19;
+    --bg-gray: #272E44;
+    --bg-gray-transparent: #3a425e1c;
+    --bg-dark-theme-purple: #7E5FC8;
     --bg-transparent: #dde4f5b2;
     --bg-purple: #6228C2;
-    --bg-blue: #1918E2;
+    --bg-blue: #2525cc;
     --bg-orange: #FF3214;
     --text-dark: #1B1B21;
     --text-dark-2: #51516D;
@@ -21,6 +25,6 @@
 
 html, body {
     font-family:  'Roboto', sans-serif;
-    color: var(--text-dark);
+    color: var(--text-light);
     max-width: 100vw;
 }

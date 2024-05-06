@@ -1,8 +1,9 @@
 <main>
   <div class="Container">
-    <img src="assets/profile-pic-portfolio.png" alt="Profile Picture" />
+    <div class="divider"></div>
+    <img src="assets/profile-pic-portfolio-bg-dark.png" alt="Profile Picture" class="content" [@float]="isVisible ? 'visible' : 'hidden'"/>
 
-    <section class="Intro-text">
+    <section class="Intro-text content" [@float]="isVisible ? 'visible' : 'hidden'">
       <h1>Hello there,</h1>
       <p class="description">
         Apaixonada por desenvolvimento web e design desde os 17 anos, brasileira

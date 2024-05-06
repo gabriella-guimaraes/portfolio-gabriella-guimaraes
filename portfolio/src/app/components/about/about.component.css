@@ -4,7 +4,15 @@
     justify-content: center;
     padding: 2rem 5rem;
     height: 100vh;
-    
+    will-change: transform, opacity;  
+    color: var(--text-dark);
+}
+
+.divider {
+    width: 3px;
+    height: auto;
+    background-color: var(--bg-dark-theme);
+    margin: 20px 0;
 }
 
 main {
@@ -43,11 +51,16 @@ footer {
     font-weight: 600;
 }
 
+footer p {
+    margin-left: 4rem;
+}
+
 @media (max-width: 768px){
     .Container{
         display: flex;
         flex-direction: column;
         height: auto;
+        padding: 2rem 2rem;
     }
 
     .Intro-text{
@@ -57,5 +70,9 @@ footer {
     .Intro-text h1{
         font-size: 48px;
         text-align: center;
+    }
+
+    footer p {
+        margin-left: 0;
     }
 }

@@ -1,0 +1,8 @@
+<main class="Container">
+    <div class="dropdown">
+        <p (click)="toggleDropdown()" class="dropbtn">{{ title }}</p>
+        <div id="dropdown" class="dropdown-content" [class.show]="isOpen"> <!-- Adicione a classe show diretamente -->
+          <p>{{ text }}</p>
+        </div>
+    </div>
+</main>
