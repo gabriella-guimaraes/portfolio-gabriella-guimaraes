@@ -118,7 +118,21 @@ p {
 .Coming-Soon-Projects {
     margin-bottom: 5rem;
     a {
-        color: var(--bg-purple);
+        color: var(--bg-dark-theme-purple);
+        cursor: pointer;
+        text-decoration: none;
+        transition: .3s;
+    }
+
+    a:hover {
+        transform: scale(1.2);
+        color: var(--bg-blue);
+    }
+}
+
+.Project-description {
+    a {
+        color: var(--bg-dark-theme-purple);
         cursor: pointer;
         text-decoration: none;
         transition: .3s;
